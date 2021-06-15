@@ -125,7 +125,7 @@ function getMenuData(isAuth) {
         'Upload': () => {
             CloudCmd.Upload.show();
         },
-        'Upload From Cloud': uploadFromCloud,
+        // 'Upload From Cloud': uploadFromCloud,
         '(Un)Select All': DOM.toggleAllSelectedFiles,
     };
     
@@ -160,7 +160,7 @@ function getFileMenuData() {
             CloudCmd.Operation.show('extract');
         },
         'Download': preDownload,
-        'Upload To Cloud': uploadTo('Cloud'),
+        // 'Upload To Cloud': uploadTo('Cloud'),
         'Cut': () => {
             isCurrent(Buffer.cut, alertNoFiles);
         },
@@ -314,7 +314,7 @@ function getCurrentPosition() {
     
     const position = {
         x: Math.round(rect.left + rect.width / 3),
-        y: Math.round(rect.top),
+        y: Math.round(rect.top - 100),
     };
     
     return position;
