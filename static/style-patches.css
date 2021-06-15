@@ -1,0 +1,37 @@
+.fm {
+    height: calc( 100vh - 250px );
+    margin-top: 0.5em;
+    line-height: normal;
+}
+
+.fm .panel-single {
+    border: none;
+    margin: 1px;
+}
+
+.fm .files {
+    margin-top: 0.25em;
+}
+
+.fm .fm-header {
+    text-transform: capitalize;
+}
+
+/* Undo bootstrap link styles */
+.fm .files .name a {
+    color: revert;
+    background-color: revert;
+}
+
+.modal-main {
+    top: 160px;
+    left: 25px;
+    right: 25px;
+    bottom: 75px;
+}
+
+.fm, .fm pre, .fm code, .modal-main {
+    font-family     : 'Droid Sans Mono', 'Ubuntu Mono', 'Consolas', monospace;
+    font-size       : 16px;
+}
+
