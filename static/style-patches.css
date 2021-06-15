@@ -24,10 +24,12 @@
 }
 
 .modal-main {
-    top: 160px;
-    left: 25px;
-    right: 25px;
-    bottom: 75px;
+    top: 160px !important;
+    left: 25px !important;
+    right: 25px !important;
+    bottom: 75px !important;
+    height: unset !important;
+    width: unset !important;
 }
 
 .fm, .fm pre, .fm code, .modal-main {
