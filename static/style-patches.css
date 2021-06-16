@@ -37,3 +37,6 @@
     font-size       : 16px;
 }
 
+.fm label {
+    display: revert;
+}
