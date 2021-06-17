@@ -314,7 +314,7 @@ function getCurrentPosition() {
     
     const position = {
         x: Math.round(rect.left + rect.width / 3),
-        y: Math.round(rect.top - 100),
+        y: Math.round(rect.top),
     };
     
     return position;

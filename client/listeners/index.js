@@ -386,7 +386,7 @@ function contextMenu() {
     Events.addOnce('contextmenu', fm, (event) => {
         CloudCmd.Menu.show({
             x: event.clientX,
-            y: event.clientY - 100,
+            y: event.clientY,
         });
     });
     
